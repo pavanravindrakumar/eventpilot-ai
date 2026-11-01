@@ -28,6 +28,8 @@ import {
 } from "@/lib/schemas";
 import { getDemoPlan } from "@/lib/demo-plan";
 
+export const maxDuration = 45;
+
 export const PRIMARY_MODEL = "gemini-3.8-flash";
 export const SECONDARY_MODEL = "gemini-3.6-flash";
 export const TERTIARY_MODEL = "gemini-3.5-flash-lite";
